@@ -21,9 +21,10 @@ Design
     6. style grid-container, header, main, footer / DONE
 
 Create static home screen
-    1. create ul.products
-    2. create li
-    3. create div.product
-    4. add .product-image, .product-name, .product-brand, .product-prize
+    1. create ul.products / DONE
+    2. create li / DONE
+    3. create div.product / DONE
+    4. add .product-image, .product-name, .product-brand, .product-prize / DONE
     5. style ul.products and internal divs
-    6. duplicate twice to show 3 products
+    6. duplicate twice to show 3 products / DONE
+    7. Add images saved as "product-1.jpg", "product-2.jpg", etc fitting the descriptions / CREATED IMAGES IN PAINT FOR PRODUCT IMAGE
