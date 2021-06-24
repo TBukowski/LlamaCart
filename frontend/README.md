@@ -25,6 +25,7 @@ Create static home screen
     2. create li / DONE
     3. create div.product / DONE
     4. add .product-image, .product-name, .product-brand, .product-prize / DONE
-    5. style ul.products and internal divs
+    5. style ul.products and internal divs / DONE
     6. duplicate twice to show 3 products / DONE
     7. Add images saved as "product-1.jpg", "product-2.jpg", etc fitting the descriptions / CREATED IMAGES IN PAINT FOR PRODUCT IMAGE
+    8. Fix flex styling for list products
