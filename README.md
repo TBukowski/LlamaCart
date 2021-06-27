@@ -29,3 +29,18 @@ Create static home screen
     6. duplicate twice to show 3 products / DONE
     7. Add images saved as "product-1.jpg", "product-2.jpg", etc fitting the descriptions / CREATED IMAGES IN PAINT FOR PRODUCT IMAGE
     8. Fix flex styling for list products
+
+Render dynamic home screen
+    1. create data.js
+    2. export an array of 6 products
+    3. create screen/HomeScreen.js
+    4. export HomeScreen as an object with render() method
+    5. implement render()
+    6. import data.js
+    7. return products mapped to lis inside ul
+    8. create app.js
+    9. link app.js to index.html as module
+    10. set main id to main_container
+    11. create router() function
+    12. set main_container innerHTML to HomeScreen.render()
+    13. set load event of window to router() function

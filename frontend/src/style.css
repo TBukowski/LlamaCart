@@ -67,7 +67,7 @@ footer{
 /* Products */
 .products{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -76,7 +76,7 @@ footer{
 
 .products li{
     flex: 0 1 30rem;
-    margin: 1 rem;
+    margin: 1rem;
     margin-bottom: 0;
     height: 42rem;
     border-top: 0.2rem #e0e0e0 solid;
@@ -84,7 +84,6 @@ footer{
 
 .product{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     height: 100%;
 }
