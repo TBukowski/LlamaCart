@@ -28,7 +28,7 @@ Create static home screen
     5. style ul.products and internal divs / DONE
     6. duplicate twice to show 3 products / DONE
     7. Add images saved as "product-1.jpg", "product-2.jpg", etc fitting the descriptions / CREATED IMAGES IN PAINT FOR PRODUCT IMAGE
-    8. Fix flex styling for list products
+    8. Fix flex styling for list products / DONE ADDED MISSING LI TAGS TO SEPERATE LIST ITEMS
 
 Render dynamic home screen
     1. create data.js
