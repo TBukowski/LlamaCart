@@ -44,3 +44,15 @@ Render dynamic home screen
     11. create router() function / DONE
     12. set main_container innerHTML to HomeScreen.render() / DONE
     13. set load event of window to router() function / DONE
+
+Build URL router
+    1. create routes as route:screen object for home screen
+    2. create utils.js
+    3. export paseRequestURL()
+    4. set url as hash address split by slash
+    5. return resource, id and verb of url
+    6. update router()
+    7. set request as parseRequestURL()
+    8. build parsedUrl and compare with routes
+    9. if route exists, render it. else, render Error404
+    10. create screens/Error404.js and render error message
