@@ -31,16 +31,16 @@ Create static home screen
     8. Fix flex styling for list products / DONE ADDED MISSING LI TAGS TO SEPERATE LIST ITEMS
 
 Render dynamic home screen
-    1. create data.js
-    2. export an array of 6 products
-    3. create screen/HomeScreen.js
-    4. export HomeScreen as an object with render() method
-    5. implement render()
-    6. import data.js
-    7. return products mapped to lis inside ul
-    8. create app.js
-    9. link app.js to index.html as module
-    10. set main id to main_container
-    11. create router() function
-    12. set main_container innerHTML to HomeScreen.render()
-    13. set load event of window to router() function
+    1. create data.js / DONE
+    2. export an array of 6 products / DONE
+    3. create screen/HomeScreen.js / DONE
+    4. export HomeScreen as an object with render() method / DONE
+    5. implement render() / DONE
+    6. import data.js / DONE
+    7. return products mapped to lis inside ul / DONE
+    8. create app.js / DONE
+    9. link app.js to index.html as module / DONE
+    10. set main id to main_container / DONE
+    11. create router() function / DONE
+    12. set main_container innerHTML to HomeScreen.render() / DONE
+    13. set load event of window to router() function / DONE
