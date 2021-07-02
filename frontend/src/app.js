@@ -4,9 +4,9 @@ import { parseRequestUrl } from "./utils.js";
 import Error404Screen from "./screens/Error404Screen.js";
 
 const routes = {
-    "/": HomeScreen,
-    "/product/:id": ProductScreen,
-}
+    '/': HomeScreen,
+    '/product/:id': ProductScreen,
+};
 const router = () => {
     const request = parseRequestUrl();
     const parseUrl = 
