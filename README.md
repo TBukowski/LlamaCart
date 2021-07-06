@@ -56,4 +56,17 @@ Build URL router
     8. build parsedUrl and compare with routes / DONE
     9. if route exists, render it. else, render Error404 / DONE
     10. create screens/Error404.js and render error message / DONE
-    11. Routes are broken, goes to " ~/ ". Fix it.
+    11. Routes are broken, goes to " ~/ ". Needed http://127.0.0.1:8080/ and not http://127.0.0.1:5500/
+
+Add a .gitignore file
+
+Create Node.js server
+    1. run npm init in root folder
+    2. npm install express
+    3. create server.js
+    4. add start command as node backend/server.js
+    5. require express
+    6. move data.js from from frontend to backend
+    7. create route for /api/products
+    8. return products in data.js
+    9. run npm start

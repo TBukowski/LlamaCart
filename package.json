@@ -1,0 +1,23 @@
+{
+  "name": "llamacart",
+  "version": "1.0.0",
+  "description": "TO DO STEPS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TBukowski/LlamaCart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TBukowski/LlamaCart/issues"
+  },
+  "homepage": "https://github.com/TBukowski/LlamaCart#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
