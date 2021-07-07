@@ -58,15 +58,35 @@ Build URL router
     10. create screens/Error404.js and render error message / DONE
     11. Routes are broken, goes to " ~/ ". Needed http://127.0.0.1:8080/ and not http://127.0.0.1:5500/
 
-Add a .gitignore file
+Add a .gitignore file / DONE
 
 Create Node.js server
-    1. run npm init in root folder
-    2. npm install express
-    3. create server.js
-    4. add start command as node backend/server.js
-    5. require express
-    6. move data.js from from frontend to backend
-    7. create route for /api/products
-    8. return products in data.js
-    9. run npm start
+    1. run npm init in root folder / DONE
+    2. npm install express / DONE
+    3. create server.js / DONE
+    4. add start command as node backend/server.js / DONE
+    5. require express / DONE
+    6. move data.js from from frontend to backend / DONE
+    7. create route for /api/products / DONE
+    8. return products in data.js / DONE
+    9. run npm start / DONE
+
+Load product from backend
+    1. edit Homescreen.js / DONE
+    2. make render async / DONE
+    3. fetch products from '/api/products' / DONE
+    4. make router() async and call await HomeScreen.render() / DONE
+    5. use cors on backend / NEED TO 'npm install cors' in new terminal instance
+
+Add webpack
+    1. cd frontend
+    2. npm install -D webpack webpack-cli webpack-dev-server
+    3. npm uninstall live-server
+    4. "start": "webpack-dev-server --mode development --watch-content-base --open"
+    5. move index.html, style.css and images to frontend folder
+    6. rename app.js to index.js
+    7. update index.html
+    8. add <script src="main.js"></script> before <body>
+    9. npm start
+    10. npm install axios
+    11. change fetch to axios in HomeScreen
