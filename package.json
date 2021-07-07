@@ -1,7 +1,7 @@
 {
   "name": "llamacart",
   "version": "1.0.0",
-  "description": "TO DO STEPS",
+  "description": "LlamaCart",
   "main": "index.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/TBukowski/LlamaCart#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   }
 }
