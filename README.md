@@ -98,3 +98,21 @@ Install Babel for ES6 syntax
     4. set start nodemon --watch backend --exec babel-node backend/server.js / DONE
     5. convert require to import in server.js / DONE
     6. npm start / DONE
+
+Enable code linting
+    1. npm install -D eslint / DONE
+    2. install vscode eslint extension / DONE
+    3. create .eslintrc and set module.exports for env to node / DONE
+    4. set vscode setting for editor.codeActionsOnSave source.fixAll.eslint to true / DONE
+    5. check result for linting error / DONE
+    6. npm install eslint-config-airbnb-base and eslint-plugin-import / DONE
+    7. set extends to airbnb-base / DONE
+    8. set parserOptions to ecmaVersion 11 and sourceType to module / DONE
+    9. set rules for no-console to 0 to ignore linting error / DONE
+
+Install VS Code Extension
+    1. JavaScript (ES6) code snippets
+    2. ES7 react/redux/graphql/react-native snippets
+    3. prettier - code formatter
+    4. html&less grammer injections
+    5. css peek
