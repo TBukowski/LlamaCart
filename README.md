@@ -76,17 +76,25 @@ Load product from backend
     2. make render async / DONE
     3. fetch products from '/api/products' / DONE
     4. make router() async and call await HomeScreen.render() / DONE
-    5. use cors on backend / NEED TO 'npm install cors' in new terminal instance
+    5. use cors on backend / DONE
 
 Add webpack
-    1. cd frontend
-    2. npm install -D webpack webpack-cli webpack-dev-server
-    3. npm uninstall live-server
-    4. "start": "webpack-dev-server --mode development --watch-content-base --open"
-    5. move index.html, style.css and images to frontend folder
-    6. rename app.js to index.js
-    7. update index.html
-    8. add <script src="main.js"></script> before <body>
-    9. npm start
-    10. npm install axios
-    11. change fetch to axios in HomeScreen
+    1. cd frontend / DONE
+    2. npm install -D webpack webpack-cli webpack-dev-server / DONE
+    3. npm uninstall live-server / DONE
+    4. "start": "webpack-dev-server --mode development --watch-content-base --open" / DONE
+    5. move index.html, style.css and images to frontend folder / DONE
+    6. rename app.js to index.js / DONE
+    7. update index.html / DONE
+    8. add <script src="main.js"></script> before <body> / DONE
+    9. npm start / DONE
+    10. npm install axios / DONE
+    11. change fetch to axios in HomeScreen / DONE
+
+Install Babel for ES6 syntax
+    1. npm install -D babel core, cli, node, preset-env / DONE
+    2. create .babelrc and set preset to @babel/preset-env / DONE
+    3. npm install -D nodemon / DONE
+    4. set start nodemon --watch backend --exec babel-node backend/server.js / DONE
+    5. convert require to import in server.js / DONE
+    6. npm start / DONE
