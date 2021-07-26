@@ -117,3 +117,14 @@ Install VS Code Extension
     3. prettier - code formatter
     4. html&less grammer injections
 
+Create Rating Component
+    1. create components/Rating.js
+    2. create div.rating
+    3. link to fontawesome.css in index.html
+    4. define Rating object with render()
+    5. if !props.value return empty
+    6. else use fa fa-star, fa-star-half-o and fa-star-o
+    7. last span for props.text || ''
+    8. style div.rating, span and last span
+    9. edit HomeScreen
+    10. add div.product-rating and use Rating component
