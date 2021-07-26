@@ -14,5 +14,6 @@ module.exports = {
         'linebreak-style': 0,
         indent: 0,
         'spaced-comment': 0,
+        'no-nested-ternary': 0,
     },
 };

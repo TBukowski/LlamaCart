@@ -112,19 +112,19 @@ Enable code linting
     9. set rules for no-console to 0 to ignore linting error / DONE
 
 Install VS Code Extension
-    1. JavaScript (ES6) code snippets
-    2. ES7 react/redux/graphql/react-native snippets
-    3. prettier - code formatter
-    4. html&less grammer injections
+    1. JavaScript (ES6) code snippets / DONE
+    2. ES7 react/redux/graphql/react-native snippets / DONE
+    3. prettier - code formatter / DONE
+    4. html&less grammer injections / DONE
 
 Create Rating Component
-    1. create components/Rating.js
-    2. create div.rating
-    3. link to fontawesome.css in index.html
-    4. define Rating object with render()
-    5. if !props.value return empty
-    6. else use fa fa-star, fa-star-half-o and fa-star-o
-    7. last span for props.text || ''
-    8. style div.rating, span and last span
-    9. edit HomeScreen
-    10. add div.product-rating and use Rating component
+    1. create components/Rating.js / DONE
+    2. create div.rating / DONE
+    3. link to fontawesome.css in index.html / DONE
+    4. define Rating object with render() / DONE
+    5. if !props.value return empty / DONE
+    6. else use fa fa-star, fa-star-half-o and fa-star-o / DONE
+    7. last span for props.text || '' / DONE
+    8. style div.rating, span and last span / DONE
+    9. edit HomeScreen / DONE
+    10. add div.product-rating and use Rating component / DONE
