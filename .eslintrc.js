@@ -2,9 +2,9 @@ module.exports = {
     env: {
         browser: true,
         node: true,
-        es2020: true
+        es2020: true,
     },
-    extends: ['airbnb-base'],
+    extends: ['airbnb-base', 'prettier'],
     parserOptions: {
         sourceType: 'module',
         ecmaVersion: 11,
@@ -14,5 +14,5 @@ module.exports = {
         'linebreak-style': 0,
         indent: 0,
         'spaced-comment': 0,
-    }
+    },
 };

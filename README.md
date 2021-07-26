@@ -1,3 +1,4 @@
+
 TO DO STEPS
 
 **Using "JavaScript Tutorial - Full ECommerce in 7 Hours [2021]" by Coding with Basir ( https://youtu.be/N3FDyheHVMM ) to gain base knowledge of the working of an ecommerce site. I then plan on making minor to major alterations and creating a inventory management mock app for warehouse use. Possibly, creating a new app all together.
@@ -115,4 +116,4 @@ Install VS Code Extension
     2. ES7 react/redux/graphql/react-native snippets
     3. prettier - code formatter
     4. html&less grammer injections
-    5. css peek
+
