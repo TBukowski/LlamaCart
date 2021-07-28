@@ -15,5 +15,6 @@ module.exports = {
         indent: 0,
         'spaced-comment': 0,
         'no-nested-ternary': 0,
+        'import/prefer-default-export': 0,
     },
 };
